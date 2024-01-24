@@ -1,6 +1,9 @@
 package com.felixwalter.doglibrary.adapter.api.response;
 
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
 @Builder

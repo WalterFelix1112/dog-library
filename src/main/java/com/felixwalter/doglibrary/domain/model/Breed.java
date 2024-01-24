@@ -1,16 +1,14 @@
 package com.felixwalter.doglibrary.domain.model;
 
-import lombok.Getter;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
 import lombok.NoArgsConstructor;
-import lombok.NonNull;
-import lombok.Setter;
-import lombok.experimental.Accessors;
 
-@Getter
-@Setter
+@Data
+@Builder
 @NoArgsConstructor
-@NonNull
-@Accessors(chain = true)
+@AllArgsConstructor
 public class Breed {
     private String breedName;
     private String origin;
